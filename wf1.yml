@@ -6,3 +6,4 @@
      yum:
        name: telnet
        state: "{{ packages }}"
+     register: rootout

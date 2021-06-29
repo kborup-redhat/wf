@@ -6,3 +6,7 @@
      yum:
        name: telnet
        state: "{{ packages }}"
+       
+   - name: debug
+     debug:
+       var: rootout

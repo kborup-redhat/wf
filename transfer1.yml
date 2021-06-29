@@ -1,0 +1,10 @@
+---
+- hosts: all
+  gather_facts: true
+  tasks:
+   - name: Set some odd fact
+     set_stats:
+       data:
+         im_a_playbook: true
+
+  

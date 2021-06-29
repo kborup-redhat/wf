@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: true
+  tasks:
+   - name: Show variable
+     debug:
+       var: im_a_playbook
+
+  

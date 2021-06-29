@@ -6,6 +6,6 @@
      set_stats:
        data:
          im_a_playbook: true
-       per_host: yes
+       
 
   
